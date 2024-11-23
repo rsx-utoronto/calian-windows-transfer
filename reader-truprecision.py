@@ -1,5 +1,5 @@
 """
-Filename: reader-truprecision-rsx.py
+Filename: reader-truprecision.py
 
 Reads TruPrecision serial data and sends to robot computer on local network over socket
 
@@ -27,7 +27,7 @@ from serial.tools import list_ports
 # HOST should be the Ubuntu computer's local IP, and
 # PORT should be an available port on the Ubuntu computer.
 # This is to send the data to the Ubuntu computer.
-HOST = "192.168.0.99"
+HOST = "192.168.0.32"
 PORT = 5409
 
 
