@@ -27,7 +27,7 @@ from serial.tools import list_ports
 # HOST should be the Ubuntu computer's local IP, and
 # PORT should be an available port on the Ubuntu computer.
 # This is to send the data to the Ubuntu computer.
-HOST = "192.168.0.32"
+HOST = "192.168.0.125"
 PORT = 5409
 
 
